@@ -1,0 +1,24 @@
+.form-container{
+    height: 30rem;
+    width: 30rem;
+    background-color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input, label{
+    margin: 10px;
+}
+
+input{
+    height: 50px;
+}
+
+button{
+    width: 10rem;
+    align-self: flex-end;
+}

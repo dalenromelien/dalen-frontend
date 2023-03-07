@@ -1,0 +1,21 @@
+<h1>Welcome to the Home!</h1>
+
+<p>let's design some functionality to demonstrate full stack capabilites</p>
+
+<div class="form-container">
+    <form action="">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" placeholder="enter first name here" [(ngModel)]="firstName">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" placeholder="enter last name here" [(ngModel)]="lastName">
+
+        <label for="job-title">Job Title</label>
+        <input type="text" name="job-title" placeholder="enter your job title here" [(ngModel)]="jobTitle"> 
+
+        <label for="profile-pic">Profile Picture</label>
+        <input type="file" name="profile-pic" [(ngModel)]="profilePic">
+
+        <button (click)="submitForm()">Submit</button>
+    </form>
+</div>
